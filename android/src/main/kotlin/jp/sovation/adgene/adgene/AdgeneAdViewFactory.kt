@@ -1,4 +1,4 @@
-package jp.sovation.fivesdk.fivesdk
+package jp.sovation.adgene.adgene
 
 import android.content.Context
 import io.flutter.plugin.common.MessageCodec
