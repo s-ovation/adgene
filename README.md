@@ -4,7 +4,7 @@ This is a Adgeneration plugin for Flutter.
 
 ## Usage in the app
 
-Use the `FiveAd` widget to show a banner. For the production app, specify `false` for the isTest property.
+Use the `AdgeneAd` widget to show a banner. For the production app, specify `false` for the isTest property.
 
 ```
 AdgeneAd(slotId: "48547", width: 320, height: 50, isTest: true);
@@ -22,4 +22,12 @@ allprojects {
         maven { url 'https://adgeneration.github.io/ADG-Android-SDK/repository' } # Add this!
     }
 }
+```
+
+If you see shrinker-related errors such as `The shrinker may have failed to optimize the Java bytecode`,
+
+Add the following line to the `android/proguard-rules.pro`
+
+```
+-keepattributes InnerClasses
 ```

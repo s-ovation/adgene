@@ -10,7 +10,7 @@ import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
-import jp.sovation.fivesdk.fivesdk.AdgeneAdViewFactory
+import jp.sovation.adgene.adgene.AdgeneAdViewFactory
 
 /** AdgenePlugin */
 class AdgenePlugin: FlutterPlugin, MethodCallHandler, ActivityAware {

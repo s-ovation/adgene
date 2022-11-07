@@ -1,4 +1,4 @@
-package jp.sovation.fivesdk.fivesdk
+package jp.sovation.adgene.adgene
 
 import android.util.Log
 

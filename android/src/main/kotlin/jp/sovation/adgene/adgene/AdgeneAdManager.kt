@@ -4,7 +4,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import com.socdm.d.adgeneration.ADGConsts
 import io.flutter.plugin.common.MethodChannel
-import jp.sovation.fivesdk.fivesdk.mylog
+import jp.sovation.adgene.adgene.mylog
 
 // 広告マネージャー
 // 各広告の成功・エラーイベントをFlutter側に伝えたり
