@@ -1,0 +1,29 @@
+PODS:
+  - adgene (0.0.1):
+    - AdGeneration
+    - Flutter
+  - AdGeneration (2.23.1)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - adgene (from `.symlinks/plugins/adgene/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - AdGeneration
+
+EXTERNAL SOURCES:
+  adgene:
+    :path: ".symlinks/plugins/adgene/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  adgene: 50eee02888e55917bf41f4770b4ad1c3e910b502
+  AdGeneration: e3a159bd186b8060dc693c0c33ed5a46806a7439
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.11.3
